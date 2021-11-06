@@ -1,0 +1,28 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+var num1 = prompt("숫자 여러개 입력하시오");
+document.wrtie(num1 + "<br>");
+var val = num1.split(' ');
+document.write(val + "<br>");
+document.write("두 번째 배열 : " + val[1] + "<br>");
+document.write("배열 길이 : " + val.length + "<br>");
+
+var data = map(Number);
+var max = -100
+min = 100
+for (j = 0 ; j < (data.length-1) ; i++) {
+ for (i = 0 ; < (data.length-1) ; i++) {
+     if ( data[i] > data[i+1] ) {
+     tmp = data[i]
+     data[i] = data[i+1]
+     data[i+1] = tmp
+      }
+   }
+}
+document.write(k + "첫 번째 정렬 후: " + data)
+</script>
+</body>
+</html>
